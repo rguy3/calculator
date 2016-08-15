@@ -12,6 +12,8 @@
 		8D5142EB1D614A1F00856EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5142E91D614A1F00856EB4 /* Main.storyboard */; };
 		8D5142ED1D614A1F00856EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5142EC1D614A1F00856EB4 /* Assets.xcassets */; };
 		8D5142F01D614A1F00856EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5142EE1D614A1F00856EB4 /* LaunchScreen.storyboard */; };
+		8D5142F81D614BCC00856EB4 /* Minecraftia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5142F71D614BCC00856EB4 /* Minecraftia-Regular.ttf */; };
+		8D5142FA1D614C5600856EB4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D5142F91D614C5600856EB4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8D5142EC1D614A1F00856EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5142EF1D614A1F00856EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5142F11D614A1F00856EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5142F71D614BCC00856EB4 /* Minecraftia-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Minecraftia-Regular.ttf"; path = "../../../../../../../Downloads/minecraftia 2/Minecraftia-Regular.ttf"; sourceTree = "<group>"; };
+		8D5142F91D614C5600856EB4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = btn.wav; path = ../../../sounds/btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		8D5142E41D614A1F00856EB4 /* CalcTest */ = {
 			isa = PBXGroup;
 			children = (
+				8D5142F91D614C5600856EB4 /* btn.wav */,
+				8D5142F71D614BCC00856EB4 /* Minecraftia-Regular.ttf */,
 				8D5142E51D614A1F00856EB4 /* AppDelegate.swift */,
 				8D5142E71D614A1F00856EB4 /* ViewController.swift */,
 				8D5142E91D614A1F00856EB4 /* Main.storyboard */,
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5142FA1D614C5600856EB4 /* btn.wav in Resources */,
 				8D5142F01D614A1F00856EB4 /* LaunchScreen.storyboard in Resources */,
+				8D5142F81D614BCC00856EB4 /* Minecraftia-Regular.ttf in Resources */,
 				8D5142ED1D614A1F00856EB4 /* Assets.xcassets in Resources */,
 				8D5142EB1D614A1F00856EB4 /* Main.storyboard in Resources */,
 			);
